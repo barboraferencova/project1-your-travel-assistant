@@ -1,0 +1,419 @@
+@media (min-width: 950px )  {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color:#33292a;
+        height: 70px;
+    
+    }
+
+    header nav {
+        display: block !important;
+        }
+
+    
+    
+    .menu-icon {
+        color: #fff;
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    nav li{
+        margin: 5px 45px;
+    }
+    
+    nav li a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        
+    }
+
+    a:hover {
+        color:#efa69d ;
+    }
+    
+/* Background image section */
+    .tent-img{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 900px;
+        background-image: url(images1/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    h1 {
+        position: absolute;
+        bottom: 10px;
+        right: 220px;
+        bottom: 60px;
+        color: #fff;
+        font-size: 90px;
+        text-align: right;
+    }
+
+    
+    /* Section About us */
+      
+    .about-us-container {
+    display: flex;
+    flex-direction: row;
+   
+    height: auto;
+;
+    
+    }
+    
+    .about-us {
+      
+        height: auto;
+        margin: 70px 3px 70px auto ;
+       
+        justify-content: center;
+        
+    }
+    .about-us h2 {
+        
+       margin: 0 5px;
+              
+     }
+     
+     .about-us p {
+       width: 400px;
+       height: auto;
+        font-size: 16px;
+        margin: 2px 25px 0px auto;
+   
+        padding: 0 5px;
+        line-height: 20px;
+     }
+     
+     .about-us-img {
+        display: flex;
+        margin: 70px auto 70px 0;
+        height: auto;
+       
+      
+     }
+     .about-us-img img {
+       width: 400px;
+       height: auto;
+       align-self: center;
+     
+       max-width: 100%;
+     } 
+
+
+
+
+     /* Section What We Do */
+     .What-we-do {
+       
+        height: auto;
+        padding-top: 90px;
+        color: #fff;
+        background-color:#33292a;
+     }
+
+     .What-we-do h2 {
+     
+        text-align: center;
+        font-size: 30px;
+        margin: 20px auto;
+     }
+
+     .What-we-do p {
+       text-align: center;
+       margin: 0 auto 40px auto;
+       width: 80%;
+       font-size: 16px;
+       line-height: 22px;
+     
+     }
+
+     .icons {
+        display: grid;
+        width: 80%;
+        margin: 10px auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+        row-gap: 12px;
+      
+       }
+
+    .icons-text p {
+     text-align: center;
+     
+       }
+       
+
+  .hiking{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  } 
+
+  .cycling {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .surfing {
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+  }
+
+       .icons img {
+         height: auto;
+         width: 60px;
+       }
+
+/* Section Our trips */
+    
+.our-trips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 100px auto;
+    flex-shrink: 1;
+   
+}
+
+.imgs-our-trips {
+    display:grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+   
+   
+}
+
+.our-trips img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+  
+   
+  
+}
+
+.img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.img2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.img3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.img4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.fifth-picture {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.img6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.img7 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.img8 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.img9 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+ /* Section Where do you want to go? */
+    .where-want-go  {
+        display: grid;
+        height: auto;
+        background-color: #644b4f;
+        grid-template-columns:auto 60%;
+        grid-template-rows: 50% auto auto;
+        
+    }
+
+    .where-want-go h2 {
+        color: #fff;
+        margin: 70px 40px;
+        margin-left: 50%;
+    }
+
+    .where-want-go p {
+        color: #fff;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+    
+        line-height: 22px;
+        grid-column: 2/3;
+        margin-right: 40% ;
+         
+    }
+
+    .where-want-go p:nth-of-type(1) {
+        margin-top: 70px;
+        width: 85%;
+    }
+
+    .where-want-go p:nth-of-type(2) {
+        padding-top: 10px;
+    }
+
+    .where-want-go br:nth-of-type(odd) {
+        display: none;
+    }
+
+/* Button in section "Where do you want to go?"  */
+    .contact-us {
+        height: 40px;
+        width: 130px;
+        border-radius: 4px;
+        border: none;
+        margin: 20px 0px ;
+        font-weight: 800;
+        font-weight: bold;
+        grid-column: 2/3;
+        
+    }
+
+
+/* Section reviews */
+    .reviews {
+       
+        height: auto;
+        width: 70%;
+        margin: 100px auto 60px auto;
+        
+    }
+
+    .flex-reviews {
+        display: flex;
+    }
+
+    .reviews h2 {
+        text-align: center;
+        margin: auto auto 20px auto;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    
+    .reviews p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: auto 40px 10px 40px;
+        width: auto;
+        height: auto;
+        text-align: center;
+       
+        
+    }
+
+    .reviews img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+       margin: 60px auto 25px auto;
+       object-fit: cover;
+    }
+
+    .review1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews p:nth-child(3),
+    .reviews p:nth-child(5) {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+
+ /* Section Photos */
+    .Photos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .Photos img {
+        width: 50%;
+    }
+
+    footer {
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 150px;
+        margin: auto;
+    }
+    footer a {
+        color:#efa69d ;
+        margin-bottom: 15px;
+        text-underline-offset: 6px;
+    }
+
+    footer p {
+        color: #fff;
+        margin: 1px auto;
+    }
+
+}

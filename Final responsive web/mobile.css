@@ -1,0 +1,357 @@
+
+@media(max-width: 950px) {
+   * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;  
+    }
+
+ /* Navigation */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#33292a;
+    height: 70px;
+    position: relative;
+    
+    
+}
+ nav {
+      display: none;
+        
+    }
+
+  
+      
+       
+.nav-menu {
+     /* display: none; */
+    position:absolute;
+     top: 68px;
+     right: 0;   
+    color: #090620;
+     margin-top: 2px;
+     border-radius: 3px;
+     width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    padding: 0 12%;
+    z-index: 999;
+    background-color: #413436;
+          
+        }
+        
+ul   {
+    list-style: none;
+}
+
+ul a {
+    padding: 15px 0;
+}
+        
+        
+   
+    .menu-icon {
+        display: block;
+        color: #fff;
+        font-size: 23px;
+       position: absolute;
+       right: 30px;
+    }
+   
+ 
+    nav li{
+        margin: 5px 45px;
+    }
+    
+    nav li a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        
+    }
+
+
+
+    a:hover {
+        color:#efa69d ;
+    }
+
+
+    /* * Background img - Your travel assistant */ 
+
+    .tent-img{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 800px;
+        background-image: url(images1/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    h1 {
+        position: absolute;
+        bottom: 10px;
+        right: 25px;
+        bottom: 50px;
+        color: #fff;
+        font-size: 50px;
+        text-align: right;
+    }
+
+    /* Section About us */
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .about-us h2 {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 100px;
+        margin-left: 29px;
+        font-size: 30px;
+     }
+     
+     .about-us p {
+       width: auto;
+        font-size: 16px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0 5px;
+        line-height: 22px;
+     }
+     
+     .about-us-img {
+        width: 90%;
+        margin: auto;
+        margin-bottom:50px ;
+     }
+     .about-us-img img {
+       max-width: 100%;
+       height: auto;
+       margin: 25px auto;
+      
+     }
+
+     /* Section What We Do */
+     .What-we-do {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color:#33292a;
+        color: #fff;
+   
+      
+     }
+
+     .What-we-do h2 {
+        margin: 90px auto 20px auto;
+        font-size: 30px;
+     }
+
+     .What-we-do p {
+        width: auto;
+        font-size: 16px;
+        margin-left: 25px;
+        margin-right: 25px; 
+         margin-bottom: 20px;
+        padding: 0 5px;
+        line-height: 22px;
+        text-align: center;
+   
+        
+     }
+
+     .icons {
+        display: flex;
+        flex-direction: column;
+        
+     }
+
+     .icons-text p {
+        font-size: 18px;
+        font-weight: 800;
+        
+        
+     }
+
+     .icons img {
+        width: 60px;
+        height: auto;
+        margin: 10px auto 10px auto;
+     }
+
+     /* Section Our trips */
+     .imgs-our-trips{
+        height: auto;
+        width: auto;
+        margin: 60px auto 60px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+   
+
+    .imgs-our-trips img {
+        height: 260px;
+        width: 350px;
+        margin: 5px auto;
+        border-radius: 5px;
+        
+    }
+
+
+    .fifth-picture {
+        height: 100px;
+        width: 350px;
+        background-color: #f5f5f5;
+        margin: 5px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Section Where do you want to go? */
+    .where-want-go  {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: #644b4f;
+        
+        
+    }
+
+    .where-want-go h2 {
+        color: #fff;
+        font-size: 65px;
+        margin: 80px auto 10px 26px;
+    }
+
+    .where-want-go p {
+        color: #fff;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        margin: 2px 25px 15px 25px;
+        padding: 0 5px;
+        line-height: 22px;
+        
+    }
+
+    .where-want-go br:nth-of-type(even) {
+        display: none;
+    }
+
+    /* Button in section "Where do you want to go?"  */
+    .contact-us {
+        height: 40px;
+        width: 130px;
+        border-radius: 4px;
+        border: none;
+        margin: 50px 0px 70px 30px;
+        font-weight: 800;
+        font-weight: bold;
+    
+    }
+
+    .contact-us:hover {
+        transform: scale(1.1);
+    }
+
+
+/* Section reviews */
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin: 0px auto 60px auto;
+        
+    }
+
+    .reviews h2 {
+        text-align: center;
+        margin: 100px auto 20px auto;
+        font-size: 30px;
+    }
+
+    .reviews p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: auto 25px 10px 25px;
+        width: auto;
+        height: auto;
+        text-align: center;
+       
+        
+    }
+
+    .reviews img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+       margin: 60px auto 25px auto;
+       object-fit: cover;
+    }
+
+    .review1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews p:nth-child(3),
+    .reviews p:nth-child(5) {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+   
+
+ /* Section Photos */
+    .Photos {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+    }
+
+    footer {
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 150px;
+        margin: auto;
+    }
+    footer a {
+        color:#efa69d ;
+        margin-bottom: 15px;
+        text-underline-offset: 6px;
+    }
+
+    footer p {
+        color: #fff;
+        margin: 1px auto;
+    }
+}  
+
+
