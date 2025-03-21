@@ -1,4 +1,4 @@
-Project1 - Travel Assistant Website 🌍
+Project1 - Travel Assistant Website 
 
 This is a static responsive website created as part of the Engeto Front-End Developer Academy.
 
